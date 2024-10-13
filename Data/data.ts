@@ -2,7 +2,7 @@ export const BaseInfo = {
   name: "Moiz Ahmed",
   position: "FrontEnd Web Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+    "As a passionate and detail-oriented frontend developer, I specialize in creating visually engaging, responsive, and user-centric web interfaces. With expertise in HTML, CSS, JavaScript, and modern frontend frameworks like React and Next.js, I bring designs to life with a focus on performance, accessibility, and cross-browser compatibility",
   profilePic: "/images/moiz2.png",
 };
 

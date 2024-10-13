@@ -8,7 +8,6 @@ import Project from '../../app/Project/page';
 import Skills from './Skills/Skills';
 import Reviews from '../../app/Reviews/page';
 import Contact from '../../app/Contact/page';
-import ScrollTotop from '../Helper/ScrollTotop';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 

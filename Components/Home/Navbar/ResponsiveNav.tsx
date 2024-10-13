@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import Nav from './Nav'
 import MobileNav from './MobileNav'
-import { constants } from 'buffer'
 
 const ResponsiveNav = () => {
     const [showNav, setShowNav] = useState(false);

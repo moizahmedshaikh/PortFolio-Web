@@ -1,13 +1,17 @@
 "use client";
 
-import { log } from "console";
-import { Result } from "postcss";
-import React, { useEffect, useState } from "react";
+
+import { FormEvent } from "react";
+
+
 
 const ContactForm = () => {
-  async function handleSubmit(event: any) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const formData = new FormData(event.target);
+
+    const form = event.target as HTMLFormElement;
+
+    const formData = new FormData(form);
 
     formData.append("access_key", "4cd9812c-56f6-40e6-9d72-c294fac364b8");
 
@@ -24,7 +28,6 @@ const ContactForm = () => {
     });
     const result = await response.json();
     if (result.success) {
-      console.log(alert("message sumitted"));
       window.location.reload()
     }
   }
@@ -32,7 +35,7 @@ const ContactForm = () => {
   return (
     <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-        Let's Work together
+        Lets Work together
       </h1>
       <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, ea

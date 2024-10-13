@@ -38,9 +38,7 @@ const ContactForm = () => {
         Lets Work together
       </h1>
       <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, ea
-        neque natus soluta sequi hic optio tenetur quo alias beatae dolorem
-        similique
+      Im always open to collaborating on exciting projects or new opportunities. Whether you have a unique idea, need a website, or want to discuss how I can bring value to your business, Id love to connect and explore how we can work together. Let’s create something amazing!
       </p>
       {/* Form  */}
       <form

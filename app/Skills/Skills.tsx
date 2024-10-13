@@ -1,4 +1,4 @@
-import SectionHeading from "@/Components/Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { skillsData } from "@/Data/data";
 import React from "react";
 import { SkillCard } from "./SkillCard";

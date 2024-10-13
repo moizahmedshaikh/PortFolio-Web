@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/app/Navbar/ResponsiveNav";
 import Footer from "@/app/Footer/Footer";
-import ScrollTotop from "@/Components/Helper/ScrollTotop";
+import ScrollTotop from "@/app/Helper/ScrollTotop";
 import AnimatedCursor from "react-animated-cursor";
 
 const font = Poppins({

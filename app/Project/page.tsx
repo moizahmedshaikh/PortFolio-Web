@@ -1,4 +1,4 @@
-import SectionHeading from "@/Components/Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { projectData } from "@/Data/data";
 import React from "react";
 import Link from "next/link";

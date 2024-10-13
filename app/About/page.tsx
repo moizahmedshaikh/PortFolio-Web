@@ -1,4 +1,4 @@
-import SectionHeading from "@/Components/Helper/SectionHeading";
+import SectionHeading from "@/app/Helper/SectionHeading";
 import { aboutInfo } from "@/Data/data";
 import React from "react";
 import { FaCheck } from "react-icons/fa";

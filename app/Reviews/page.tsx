@@ -1,4 +1,4 @@
-import SectionHeading from '@/Components/Helper/SectionHeading'
+import SectionHeading from '@/app/Helper/SectionHeading'
 import React from 'react'
 import Slider from './Slider'
 

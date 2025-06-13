@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="custome-scrollbar">
       <body className={`${font.className} ${font.className} antialiased`}>
+        
         <div className="hidden md:block ">
           <AnimatedCursor
             innerSize={8}
@@ -40,9 +41,11 @@ export default function RootLayout({
           />
         </div>
         <ResponsiveNav />
+        <div className="max-w-[1440px] mx-auto ">
         {children}
         <Footer />
         <ScrollTotop />
+        </div>
       </body>
     </html>
   );

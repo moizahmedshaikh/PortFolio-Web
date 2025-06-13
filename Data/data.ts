@@ -1,6 +1,6 @@
 export const BaseInfo = {
   name: "Moiz Ahmed",
-  position: "FrontEnd Web Developer",
+  position: "FullStack Web Developer",
   description:
     "As a passionate and detail-oriented frontend developer, I specialize in creating visually engaging, responsive, and user-centric web interfaces. With expertise in HTML, CSS, JavaScript, and modern frontend frameworks like React and Next.js, I bring designs to life with a focus on performance, accessibility, and cross-browser compatibility",
   profilePic: "/images/moiz2.png",
@@ -61,33 +61,33 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/images/sundown2.png",
-    url: "https://sundown-gules.vercel.app/",
+    image: "/images/q-commerce.PNG",
+    url: "https://hakathon3-market-place-food-web.vercel.app/",
   },
   {
     id: 2,
-    image: "/images/currency.png",
-    url: "https://currency-converter-app-phi.vercel.app/",
+    image: "/images/portfolio.PNG",
+    url: "https://moiz-portfolio-web-2.vercel.app",
   },
   {
     id: 3,
-    image: "/images/resume.png",
+    image: "/images/resume.PNG",
     url: "https://milestone5-unique-path-and-shareable-link.vercel.app/",
   },
   {
     id: 4,
-    image: "/images/slider.png",
-    url: "https://moiz-crazy-slider-effect.vercel.app/",
+    image: "/images/client-port.png",
+    url: "https://client-demo-portfolio.vercel.app/",
   },
   {
     id: 5,
-    image: "/images/calculator.png",
-    url: "https://calculator-app-moiz.vercel.app/",
+    image: "/images/shoe-e-commerce.png",
+    url: "https://shoes-e-commerce-sepia.vercel.app/",
   },
   {
     id: 6,
-    image: "/images/e-commerce.png",
-    url: "https://html-css-ecommerce-web.vercel.app/",
+    image: "/images/space.PNG",
+    url: "https://sundown-gules.vercel.app/",
   },
 ];
 

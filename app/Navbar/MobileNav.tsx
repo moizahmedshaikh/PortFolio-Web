@@ -15,7 +15,7 @@ const MobileNav = ({showNav,closeNav}:Props) => {
   const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]"
 
   return (
-    <div>
+    <div className='lg:hidden'>
       {/* OverLay */}
       <div className={`fixed inset-0 ${navOpen} transform transition-all duration-500 z-[1000] bg-black opacity-70 w-full h-screen`}></div>
       {/* NavLinks */}

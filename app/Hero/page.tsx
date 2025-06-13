@@ -1,5 +1,6 @@
 import { BaseInfo } from "@/Data/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 
@@ -34,6 +35,7 @@ function Hero() {
               {BaseInfo.description}
             </p>
             {/* Button */}
+            <Link href={"/cv/Moiz-Ahmed_Resume_web-developer.pdf"} target="_blank">
             <button
               data-aos="zoom-in"
               data-aos-delay="300"
@@ -42,6 +44,7 @@ function Hero() {
               <span>Download CV</span>
               <FaDownload />
             </button>
+            </Link>
           </div>
           {/* Image Content */}
           <div data-aos="zoom-in" data-aos-delay="400" className="mx-auto mt-6 hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden">

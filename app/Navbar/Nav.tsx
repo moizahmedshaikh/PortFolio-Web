@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { navLinks } from "@/constant/constant";
@@ -12,32 +11,31 @@ type Props = {
 };
 
 const Nav = ({ openNav }: Props) => {
+  const [navBg, setNavBg] = useState(false);
 
-   const [navBg, setNavBg] = useState(false);
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) {
+        setNavBg(true);
+      }
+      if (window.scrollY < 90) {
+        setNavBg(false);
+      }
+    };
 
-   useEffect(()=>{
-    const handler = () =>{
-        if(window.scrollY >= 90){
-            setNavBg(true)
-        }
-        if(window.scrollY < 90){
-            setNavBg(false)
-        }
-    }
+    window.addEventListener("scroll", handler);
 
-    window.addEventListener("scroll", handler)
-
-
-    return()=>{
-         window.removeEventListener("scroll", handler)
-    }
-   
-
-
-   }, [])
+    return () => {
+      window.removeEventListener("scroll", handler);
+    };
+  }, []);
 
   return (
-    <div className={`fixed ${navBg ? "bg-[#240b39]": "fixed"} transition-all duration-300 h-[12vh] w-full z-[10]`}>
+    <div
+      className={`fixed ${
+        navBg ? "bg-[#240b39]" : "fixed"
+      } transition-all duration-300 h-[12vh] w-full z-[10]`}
+    >
       <div className="flex justify-between items-center h-full w-[95%] md:w-[90%] xl:w-[85%] mx-auto">
         {/* Nav Logo */}
         <Image

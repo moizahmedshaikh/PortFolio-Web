@@ -67,7 +67,7 @@ export const projectData = [
   {
     id: 2,
     image: "/images/portfolio.PNG",
-    url: "https://moiz-portfolio-web-2.vercel.app/",
+    url: "https://moiz-portfolio-web-2.vercel.app",
   },
   {
     id: 3,

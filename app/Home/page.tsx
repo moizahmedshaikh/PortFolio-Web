@@ -35,7 +35,7 @@ function Home(){
       <Project/>
       <Skills/>
       <Reviews/>
-      <Contact/>
+      <Contact />
     </div>
   )
 }

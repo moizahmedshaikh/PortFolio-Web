@@ -21,7 +21,7 @@ const Footer = () => {
         <div>Contact</div>
       </div>
       <p className="text-center mt-6 text-white opacity-60">
-        &copy; 2024 All Rights Reserved by WebDev Warriors
+        &copy; 2024 All Rights Reserved by WebDev Warrior Moiz Ahmed
       </p>
     </div>
   );

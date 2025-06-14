@@ -2,7 +2,8 @@ export const BaseInfo = {
   name: "Moiz Ahmed",
   position: "FullStack Web Developer",
   description:
-    "As a passionate and detail-oriented frontend developer, I specialize in creating visually engaging, responsive, and user-centric web interfaces. With expertise in HTML, CSS, JavaScript, and modern frontend frameworks like React and Next.js, I bring designs to life with a focus on performance, accessibility, and cross-browser compatibility",
+    // "As a passionate and detail-oriented frontend developer, I specialize in creating visually engaging, responsive, and user-centric web interfaces. With expertise in HTML, CSS, JavaScript, and modern frontend frameworks like React and Next.js, I bring designs to life with a focus on performance, accessibility, and cross-browser compatibility"
+    "I build fast, responsive, and user-focused web applications using React, Next.js, and TypeScript. On the backend, I work with Express.js, Nest.js, MongoDB, and Sanity to create scalable, content-driven systems. I also use Python to build intelligent Agentic AI solutions, combining automation with modern agent frameworks. My focus is on clean, efficient code that delivers real-world impact.",
   profilePic: "/images/moiz2.png",
 };
 

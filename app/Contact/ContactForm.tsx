@@ -1,9 +1,6 @@
 "use client";
 
-
 import { FormEvent } from "react";
-
-
 
 const ContactForm = () => {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -28,7 +25,7 @@ const ContactForm = () => {
     });
     const result = await response.json();
     if (result.success) {
-      window.location.reload()
+      window.location.reload();
     }
   }
 
@@ -38,7 +35,10 @@ const ContactForm = () => {
         Lets Work together
       </h1>
       <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
-      Im always open to collaborating on exciting projects or new opportunities. Whether you have a unique idea, need a website, or want to discuss how I can bring value to your business, Id love to connect and explore how we can work together. Let’s create something amazing!
+        Im always open to collaborating on exciting projects or new
+        opportunities. Whether you have a unique idea, need a website, or want
+        to discuss how I can bring value to your business, Id love to connect
+        and explore how we can work together. Let’s create something amazing!
       </p>
       {/* Form  */}
       <form

@@ -3,7 +3,6 @@ import Link from 'next/link'
 import React from 'react'
 import { CgClose } from 'react-icons/cg'
 
-// Define props type
 
 type Props = {
   showNav: boolean;
@@ -22,7 +21,7 @@ const MobileNav = ({showNav,closeNav}:Props) => {
       <div className={`fixed ${navOpen} transform transition-all duration-500 delay-300 text-white flex flex-col justify-center h-full w-[80%] sm:w-[60%] bg-[#0f0715] z-[10000] space-y-6`}>
         {navLinks.map((navlink)=>{
           return(
-            <Link key={navlink.id} href={navlink.url}>
+            <Link key={navlink.id} href={navlink.url} onClick={closeNav}>
               <p className='nav_link text-[20px] ml-12 border-b-[1.5px] pb-2 border-white sm-text-[30px]'>{navlink.label}</p>
             </Link>
           )
